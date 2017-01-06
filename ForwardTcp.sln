@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitTcp", "SplitTcp\SplitTcp.csproj", "{ED0917B5-A38F-4F98-8BFB-6A58D51732E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForwardTcp", "ForwardTcp\ForwardTcp.csproj", "{ED0917B5-A38F-4F98-8BFB-6A58D51732E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

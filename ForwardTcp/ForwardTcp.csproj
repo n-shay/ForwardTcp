@@ -7,8 +7,8 @@
     <ProjectGuid>{ED0917B5-A38F-4F98-8BFB-6A58D51732E4}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SplitTcp</RootNamespace>
-    <AssemblyName>SplitTcp</AssemblyName>
+    <RootNamespace>ForwardTcp</RootNamespace>
+    <AssemblyName>ForwardTcp</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InputArguments.cs" />
+    <Compile Include="Net\ConnectionEventArgs.cs" />
+    <Compile Include="Net\ExceptionEventArgs.cs" />
+    <Compile Include="Net\InboundConnection.cs" />
+    <Compile Include="Net\MessageEventArgs.cs" />
+    <Compile Include="Net\OutboundConnection.cs" />
+    <Compile Include="Net\SocketConnection.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UtilityArguments.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
